@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300;1,400&family=Newsreader:opsz,wght@6..72,200;6..72,400&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Newsreader', sans-serif;
+    color: whitesmoke;
+}
+body {
+    background-image: url("image/Background.jpg");
+    background-position: top right;
+  }
+
+  .navside {
+    position: fixed;
+    top: 65%;
+    left: 0;
+    width: 70px;
+    height: 35%;
+    background-color: whitesmoke;
+    border-radius: 7%;
+}
+
+main {
+    margin-left: 100px;
+    padding: 10px;
+}
+.itemnav{
+    width: 50px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: 3px; 
+    color: #000000;
+}
+.navbar{
+    padding: .8rem;
+    background-color: gray !important;
+}
+.film1{
+    padding: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.navbar-nav li{
+    padding-right: 15px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+    font-style: strong;
+    color: black;
+}
+.nav-link:hover{
+    background-color: gray;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h4 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+    padding-bottom: 1rem;
+}
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.showing{
+    width: 75%;
+    margin: 0 auto;
+}
+.showing hr{
+    border-top: 2px solid black;
+    width: 90%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.video1 {
+    color: blue;
+}
+.fast1 {
+    color: chocolate;
+}
+.ticket1 {
+    color: limegreen;
+}
+
+.video1, .fast1, .ticket1 {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.social a{
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.facebook{
+    color: #3b5998;
+}
+.twitter{
+    color:#00aced;
+}
+.google {
+    color: white;
+}
+.instagram {
+    color: #517fa4;
+}
+.youtube{
+    color: #bb0000;
+}
+.facebook:hover,
+.twitter:hover,
+.google:hover,
+.instagram:hover,
+.youtube:hover {
+    color: #d5d5d5
+}
+.card-body{
+    background-color: #000000;
+}
+
+footer{
+    background-color: grey;
+    color: whitesmoke;
+    padding-top: 2rem;
+}
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:active{
+    text-decoration: none;
+}
+hr.light{
+    border-top: 1px solid black;
+    width: 100%;
+    align-self: center;
+    mergin-top: .8rem;
+    margin-bottom: 1rem;
+}
+hr.light100{
+    border-top: 1px solid black;
+    width: 100%;
+    align-self: center;
+    mergin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.btn btn-dark:hover{
+    color: whitesmoke;
+}
+
+

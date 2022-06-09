@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300;1,400&family=Newsreader:opsz,wght@6..72,200;6..72,400&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Newsreader', sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url("image/Background.jpg");
+    background-position: top right;
+}
+
+.navbar {
+    padding: .8rem;
+    background-color: gray !important;
+}
+
+.film1 {
+    padding: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.navbar-nav li {
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+    font-style: strong;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+footer {
+    background-color: grey;
+    color: whitesmoke;
+    padding-top: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+hr.light {
+    border-top: 1px solid black;
+    width: 100%;
+    align-self: center;
+    mergin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light100 {
+    border-top: 1px solid black;
+    width: 100%;
+    align-self: center;
+    mergin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.btn btn-dark:hover {
+    color: whitesmoke;
+}
+
+.card-body {
+    background-color: #000000;
+}
+
+<!--footerandheader-->
+
+body {
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align:center;
+}
+label,input {
+ display: block;
+ width: 150px;
+ float: left;
+ margin-bottom: 10px;
+}
+
+form {
+    display: inline-flex;
+}
+.row g-3{
+    text-align:center;
+}
+.container {
+    display: block;
+    margin-top: 10px;
+    width: 60%;
+}

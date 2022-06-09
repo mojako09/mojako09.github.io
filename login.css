@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300;1,400&family=Newsreader:opsz,wght@6..72,200;6..72,400&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Newsreader', sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url("image/Background.jpg");
+    background-position: top right;
+}
+
+.navbar {
+    padding: .8rem;
+    background-color: gray !important;
+}
+
+.film1 {
+    padding: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.navbar-nav li {
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+    font-style: strong;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+footer {
+    background-color: grey;
+    color: whitesmoke;
+    padding-top: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+hr.light {
+    border-top: 1px solid black;
+    width: 100%;
+    align-self: center;
+    mergin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light100 {
+    border-top: 1px solid black;
+    width: 100%;
+    align-self: center;
+    mergin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.btn btn-dark:hover {
+    color: whitesmoke;
+}
+
+.card-body {
+    background-color: #000000;
+}
+
+<!--footerandheader-->
+
+.modal-dialog{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0;
+}
+.mainregi{
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 0;
+}
+.content2{
+    padding: 0 18px;
+    background-color: gray;
+    opacity: .90;
+    box-shadow: 0px 0px 3px gray;
+}
+.logo2{
+    color: #ffffff;
+    height: 100px;
+    width: 100px;
+}
+.user-img{
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-group input {
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+}
+.form-group ion-icon::before{
+    position: absolute;
+    font-size: 20px;
+    
+}
+ .user1 {
+    position:absolute;
+    font-size: 35px;
+    color: black;
+    left: 20px;
+}
+
+button {
+    width: 40%;
+    margin: 5x 0 25px;
+}
+.btn {
+    font-size: 15px;
+    padding: 7px 14px;
+}
+.btn:hover, .btn:focus{
+    background-color: ghostwhite;
+}
+
+.forgot {
+    padding: 5px 0 25px;
+}
